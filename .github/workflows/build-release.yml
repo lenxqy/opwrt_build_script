@@ -14,7 +14,7 @@ on:
       lanip:
         description: 'Input LAN IP address'
         required: true
-        default: '172.16.1.1'
+        default: '10.0.0.1'
         type: string
       build_options:
         description: 'Build options (separate multiple options with spaces)'
@@ -31,7 +31,6 @@ jobs:
       matrix:
         device:
         - x86_64
-        - nanopi-r5s
     defaults:
       run:
         shell: bash
