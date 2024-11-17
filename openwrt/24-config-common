@@ -10,19 +10,19 @@ CONFIG_LIBCURL_OPENSSL=y
 # CONFIG_LIBCURL_WOLFSSL is not set
 
 ### Firewall
-CONFIG_PACKAGE_nat6=y
-CONFIG_PACKAGE_ip6tables-nft=y
-CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
-CONFIG_PACKAGE_iptables-mod-iprange=y
-CONFIG_PACKAGE_iptables-mod-nat-extra=y
-CONFIG_PACKAGE_iptables-mod-socket=y
-CONFIG_PACKAGE_iptables-mod-tproxy=y
-CONFIG_PACKAGE_iptables-nft=y
-CONFIG_PACKAGE_xtables-nft=y
+# CONFIG_PACKAGE_nat6 is not set
+# CONFIG_PACKAGE_ip6tables-nft is not set
+# CONFIG_PACKAGE_iptables-mod-conntrack-extra is not set
+# CONFIG_PACKAGE_iptables-mod-iprange is not set
+# CONFIG_PACKAGE_iptables-mod-nat-extra is not set
+# CONFIG_PACKAGE_iptables-mod-socket is not set
+# CONFIG_PACKAGE_iptables-mod-tproxy is not set
+# CONFIG_PACKAGE_iptables-nft is not set
+# CONFIG_PACKAGE_xtables-nft is not set
 # CONFIG_PACKAGE_iptables-legacy is not set
 
 # Natflow
-CONFIG_PACKAGE_natflow=m
+# CONFIG_PACKAGE_natflow is not set
 
 # SFE
 CONFIG_PACKAGE_kmod-fast-classifier=y
@@ -50,17 +50,17 @@ CONFIG_PACKAGE_dnsmasq_full_ipset=y
 # CONFIG_PACKAGE_dnsmasq is not set
 
 ### Docker
-CONFIG_DOCKER_CGROUP_OPTIONS=y
-CONFIG_DOCKER_NET_ENCRYPT=y
-CONFIG_DOCKER_NET_MACVLAN=y
-CONFIG_DOCKER_NET_OVERLAY=y
-CONFIG_DOCKER_NET_TFTP=y
-CONFIG_DOCKER_OPTIONAL_FEATURES=y
-CONFIG_DOCKER_STO_BTRFS=y
-CONFIG_DOCKER_STO_EXT4=y
-CONFIG_PACKAGE_luci-app-dockerman=y
-CONFIG_PACKAGE_luci-lib-docker=y
-CONFIG_PACKAGE_docker-compose=y
+# CONFIG_DOCKER_CGROUP_OPTIONS is not set
+# CONFIG_DOCKER_NET_ENCRYPT is not set
+# CONFIG_DOCKER_NET_MACVLAN is not set
+# CONFIG_DOCKER_NET_OVERLAY is not set
+# CONFIG_DOCKER_NET_TFTP is not set
+# CONFIG_DOCKER_OPTIONAL_FEATURES is not set
+# CONFIG_DOCKER_STO_BTRFS is not set
+# CONFIG_DOCKER_STO_EXT4 is not set
+# CONFIG_PACKAGE_luci-app-dockerman is not set
+# CONFIG_PACKAGE_luci-lib-docker is not set
+# CONFIG_PACKAGE_docker-compose is not set
 
 ### Luci
 CONFIG_PACKAGE_luci=y
@@ -101,7 +101,7 @@ CONFIG_NGINX_STREAM_REAL_IP=y
 CONFIG_PACKAGE_luci-app-argon-config=y
 # CONFIG_PACKAGE_luci-app-aria2 is not set
 # CONFIG_PACKAGE_luci-app-autoreboot is not set
-CONFIG_PACKAGE_luci-app-commands=y
+# CONFIG_PACKAGE_luci-app-commands is not set
 CONFIG_PACKAGE_luci-app-cpufreq=y
 # CONFIG_PACKAGE_luci-app-ddns is not set
 CONFIG_PACKAGE_luci-app-diskman=y
@@ -111,7 +111,7 @@ CONFIG_PACKAGE_luci-app-diskman=y
 # CONFIG_PACKAGE_luci-app-mentohust is not set
 # CONFIG_PACKAGE_luci-app-mosdns is not set
 # CONFIG_PACKAGE_luci-app-natmap is not set
-CONFIG_PACKAGE_luci-app-netspeedtest=y
+# CONFIG_PACKAGE_luci-app-netspeedtest is not set
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
 # CONFIG_PACKAGE_luci-app-oaf is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent is not set
@@ -124,7 +124,7 @@ CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-upnp=y
 # CONFIG_PACKAGE_luci-app-usb-printer is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
-CONFIG_PACKAGE_luci-app-watchcat=y
+# CONFIG_PACKAGE_luci-app-watchcat is not set
 # CONFIG_PACKAGE_luci-app-webdav is not set
 # CONFIG_PACKAGE_luci-app-wolplus is not set
 # CONFIG_PACKAGE_luci-app-zerotier is not set
@@ -134,22 +134,22 @@ CONFIG_PACKAGE_luci-app-watchcat=y
 # CONFIG_PACKAGE_luci-app-homeproxy is not set
 
 ### Mihomo
-CONFIG_PACKAGE_luci-app-mihomo=y
+# CONFIG_PACKAGE_luci-app-mihomo is not set
 
 ### QoSmate
-CONFIG_PACKAGE_luci-app-qosmate=y
+# CONFIG_PACKAGE_luci-app-qosmate is not set
 
 ### tailscale
-CONFIG_PACKAGE_luci-app-tailscale=y
+# CONFIG_PACKAGE_luci-app-tailscale is not set
 
 ### One-KVM
-CONFIG_PACKAGE_usbutils=y
-CONFIG_PACKAGE_kmod-usb-core=y
-CONFIG_PACKAGE_kmod-usb-serial=y
-CONFIG_PACKAGE_kmod-usb-serial-ch341=y
-CONFIG_PACKAGE_kmod-video-core=y
-CONFIG_PACKAGE_kmod-video-uvc=y
-CONFIG_PACKAGE_kmod-video-videobuf2=y
+# CONFIG_PACKAGE_usbutils is not set
+# CONFIG_PACKAGE_kmod-usb-core is not set
+# CONFIG_PACKAGE_kmod-usb-serial is not set
+# CONFIG_PACKAGE_kmod-usb-serial-ch341 is not set
+# CONFIG_PACKAGE_kmod-video-core is not set
+# CONFIG_PACKAGE_kmod-video-uvc is not set
+# CONFIG_PACKAGE_kmod-video-videobuf2 is not set
 
 ### Passwall
 # CONFIG_PACKAGE_luci-app-passwall is not set
@@ -197,9 +197,9 @@ CONFIG_PACKAGE_openssl-util=y
 # CONFIG_OPENSSL_WITH_ERROR_MESSAGES is not set
 
 ### Share Network
-CONFIG_PACKAGE_usbmuxd=y
-CONFIG_PACKAGE_kmod-usb-net-rndis=y
-CONFIG_PACKAGE_kmod-usb-net-ipheth=y
+# CONFIG_PACKAGE_usbmuxd is not set
+# CONFIG_PACKAGE_kmod-usb-net-rndis is not set
+# CONFIG_PACKAGE_kmod-usb-net-ipheth is not set
 
 ### Kernel Modules
 CONFIG_PACKAGE_kmod-br-netfilter=y
@@ -240,10 +240,10 @@ CONFIG_PACKAGE_kmod-usb2=y
 CONFIG_PACKAGE_kmod-usb3=y
 
 ### Kernel Modules - out-of-tree driver
-CONFIG_PACKAGE_kmod-usb-net-rtl8152-vendor=y
+# CONFIG_PACKAGE_kmod-usb-net-rtl8152-vendor is not set
 
 ### Kernel Modules - USB WiFi Adapter
-CONFIG_PACKAGE_kmod-mt7921u=y
+# CONFIG_PACKAGE_kmod-mt7921u is not set
 
 ### Utilities
 CONFIG_PACKAGE_bash=y
@@ -298,19 +298,19 @@ CONFIG_PACKAGE_zip=y
 CONFIG_PACKAGE_zoneinfo-asia=y
 
 ### Shadow Utilities
-CONFIG_PACKAGE_shadow-gpasswd=y
-CONFIG_PACKAGE_shadow-groupadd=y
-CONFIG_PACKAGE_shadow-groupdel=y
-CONFIG_PACKAGE_shadow-groupmod=y
-CONFIG_PACKAGE_shadow-groups=y
-CONFIG_PACKAGE_shadow-login=y
-CONFIG_PACKAGE_shadow-nologin=y
-CONFIG_PACKAGE_shadow-passwd=y
-CONFIG_PACKAGE_shadow-su=y
-CONFIG_PACKAGE_shadow-useradd=y
-CONFIG_PACKAGE_shadow-userdel=y
-CONFIG_PACKAGE_shadow-usermod=y
-CONFIG_PACKAGE_shadow-utils=y
+# CONFIG_PACKAGE_shadow-gpasswd is not set
+# CONFIG_PACKAGE_shadow-groupadd is not set
+# CONFIG_PACKAGE_shadow-groupdel is not set
+# CONFIG_PACKAGE_shadow-groupmod is not set
+# CONFIG_PACKAGE_shadow-groups is not set
+# CONFIG_PACKAGE_shadow-login is not set
+# CONFIG_PACKAGE_shadow-nologin is not set
+# CONFIG_PACKAGE_shadow-passwd is not set
+# CONFIG_PACKAGE_shadow-su is not set
+# CONFIG_PACKAGE_shadow-useradd is not set
+# CONFIG_PACKAGE_shadow-userdel is not set
+# CONFIG_PACKAGE_shadow-usermod is not set
+# CONFIG_PACKAGE_shadow-utils is not set
 # CONFIG_shadow-all is not set
 
 ### GNU Core Utilities
