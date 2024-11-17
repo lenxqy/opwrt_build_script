@@ -35,7 +35,7 @@ jobs:
       matrix:
         device:
         - x86_64
-        - nanopi-r5s
+        #- nanopi-r5s
     defaults:
       run:
         shell: bash
